@@ -10,6 +10,7 @@ io.on("connection",socket=>{
         console.log("name",name,"message",message)
         io.emit('message',{name , message})
     })
+    console.log("SUUCESS")
 })
 
 
